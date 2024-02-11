@@ -32,16 +32,16 @@
 
         <org.mapstruct.gem.version>1.0.0.Alpha3</org.mapstruct.gem.version>
         <org.apache.maven.plugins.enforcer.version>3.4.1</org.apache.maven.plugins.enforcer.version>
-        <org.apache.maven.plugins.surefire.version>3.2.2</org.apache.maven.plugins.surefire.version>
-        <org.apache.maven.plugins.javadoc.version>3.1.0</org.apache.maven.plugins.javadoc.version>
+        <org.apache.maven.plugins.surefire.version>3.2.5</org.apache.maven.plugins.surefire.version>
+        <org.apache.maven.plugins.javadoc.version>3.6.3</org.apache.maven.plugins.javadoc.version>
         <org.springframework.version>5.3.31</org.springframework.version>
         <org.eclipse.tycho.compiler-jdt.version>1.6.0</org.eclipse.tycho.compiler-jdt.version>
         <com.puppycrawl.tools.checkstyle.version>8.36.1</com.puppycrawl.tools.checkstyle.version>
-        <org.junit.jupiter.version>5.10.1</org.junit.jupiter.version>
+        <org.junit.jupiter.version>5.11.3</org.junit.jupiter.version>
         <junit-pioneer.version>2.2.0</junit-pioneer.version>
         <jreleaser.plugin.version>1.12.0</jreleaser.plugin.version>
         <forkCount>1</forkCount>
-        <assertj.version>3.24.2</assertj.version>
+        <assertj.version>3.25.3</assertj.version>
         <!-- automatically run annotation processors within the incremental compilation -->
         <!-- Needed for the gem tools processor-->
         <m2e.apt.activation>jdt_apt</m2e.apt.activation>
@@ -188,7 +188,7 @@
             <dependency>
                 <groupId>org.jboss.arquillian</groupId>
                 <artifactId>arquillian-bom</artifactId>
-                <version>1.6.0.Final</version>
+                <version>1.8.0.Final</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
@@ -358,12 +358,12 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-assembly-plugin</artifactId>
-                    <version>3.1.1</version>
+                    <version>3.6.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-checkstyle-plugin</artifactId>
-                    <version>3.1.1</version>
+                    <version>3.3.1</version>
                     <configuration>
                         <configLocation>build-config/checkstyle.xml</configLocation>
                         <consoleOutput>true</consoleOutput>
@@ -395,22 +395,22 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-clean-plugin</artifactId>
-                    <version>3.1.0</version>
+                    <version>3.3.2</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.8.1</version>
+                    <version>3.13.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-dependency-plugin</artifactId>
-                    <version>3.1.1</version>
+                    <version>3.8.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-deploy-plugin</artifactId>
-                    <version>3.0.0-M1</version>
+                    <version>3.1.3</version>
                     <configuration>
                         <deployAtEnd>true</deployAtEnd>
                     </configuration>
@@ -430,7 +430,7 @@
                 <plugin>
                     <groupId>org.apache.felix</groupId>
                     <artifactId>maven-bundle-plugin</artifactId>
-                    <version>5.1.1</version>
+                    <version>5.1.9</version>
                     <executions>
                         <execution>
                             <id>bundle-manifest</id>
@@ -444,12 +444,12 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-install-plugin</artifactId>
-                    <version>3.0.0-M1</version>
+                    <version>3.1.1</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-jar-plugin</artifactId>
-                    <version>3.1.1</version>
+                    <version>3.3.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -464,7 +464,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-resources-plugin</artifactId>
-                    <version>3.1.0</version>
+                    <version>3.3.1</version>
                 </plugin>
                 <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -474,7 +474,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-site-plugin</artifactId>
-                    <version>3.7.1</version>
+                    <version>3.12.1</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -623,7 +623,7 @@
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>flatten-maven-plugin</artifactId>
-                    <version>1.2.2</version>
+                    <version>1.6.0</version>
                 </plugin>
 
             </plugins>
