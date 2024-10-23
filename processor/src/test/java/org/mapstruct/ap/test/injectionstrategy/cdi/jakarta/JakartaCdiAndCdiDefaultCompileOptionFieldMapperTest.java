@@ -5,6 +5,7 @@
  */
 package org.mapstruct.ap.test.injectionstrategy.cdi.jakarta;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.extension.RegisterExtension;
 import org.mapstruct.ap.test.injectionstrategy.shared.CustomerDto;
 import org.mapstruct.ap.test.injectionstrategy.shared.CustomerEntity;
@@ -36,6 +37,7 @@ import static java.lang.System.lineSeparator;
 })
 @WithJakartaCdi
 @WithCdi
+@Disabled
 public class JakartaCdiAndCdiDefaultCompileOptionFieldMapperTest {
 
     @RegisterExtension

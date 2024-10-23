@@ -25,6 +25,8 @@
             Therefore we set this empty property here-->
         <jacocoArgLine />
         <minimum.java.version>11</minimum.java.version>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
     <dependencies>
@@ -40,7 +42,6 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>mapstruct</artifactId>
-            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.eclipse.tycho</groupId>

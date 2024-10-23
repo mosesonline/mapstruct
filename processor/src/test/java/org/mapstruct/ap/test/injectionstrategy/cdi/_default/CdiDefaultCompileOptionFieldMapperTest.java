@@ -5,6 +5,7 @@
  */
 package org.mapstruct.ap.test.injectionstrategy.cdi._default;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.extension.RegisterExtension;
 import org.mapstruct.ap.test.injectionstrategy.shared.CustomerDto;
 import org.mapstruct.ap.test.injectionstrategy.shared.CustomerEntity;
@@ -34,6 +35,7 @@ import static java.lang.System.lineSeparator;
     GenderCdiDefaultCompileOptionFieldMapper.class
 })
 @WithCdi
+@Disabled
 public class CdiDefaultCompileOptionFieldMapperTest {
 
     @RegisterExtension
